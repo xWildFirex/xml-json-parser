@@ -31,8 +31,8 @@ public class MainActivity extends DefaulActivity implements OnClickListener {
 	Button xmlButton;
 	Button jsonButton;
 	//String xmlUrl = "http://10.201.1.227/structure.xml";
-	String xmlUrl = "https://raw.github.com/xWildFirex/xml-json-parser/structures/structure.xml";
-	String jsonUrl = "https://raw.github.com/xWildFirex/xml-json-parser/structures/structure.json";
+	String xmlUrl = "https://github.com/xWildFirex/xml-json-parser/blob/master/structures/structure.xml";
+	String jsonUrl = "https://github.com/xWildFirex/xml-json-parser/blob/master/structures/structure.json";
 	
 	
 	@Override
