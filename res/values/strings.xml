@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, AndroidXMLParsingActivity!</string>
+    <string name="app_name">AndroidXMLParsing</string>
+    <string name="prefTitle">Preferences</string>
+    <string name="prefSummary">prefSummary</string>
+    <string name="listTitle">Background image</string>
+    <string name="listSummary">please select background image</string>
+    <string name="dialogTitle">Chose Options</string>
+    <string name="option_default_value">0</string>
+    <string name="main_list_preference">main_list_preference</string>
+    
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.xmlparsing"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="12" />
+    
+    
+
+    <application
+        android:icon="@drawable/xml_icon"        
+        android:label="@string/app_name" >
+        
+        <uses-library android:name="com.google.android.maps" />
+        <meta-data android:name="com.google.android.backup.api_key"
+            android:value="AIzaSyAA3ZZwijhx0CUpWEKiiSsh_ejhGBuaAlc" />
+        <activity
+            android:label="@string/app_name"
+            android:name="com.android.xmlparsing.MainActivity" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+       
+        <activity android:name="com.android.xmlparsing.AndroidXMLParsingActivity"></activity>
+        <activity android:name="com.android.preference.MyPreferenceActivity"></activity>
+        <activity android:name="com.android.mymapapp.MapActivity"></activity>
+    </application>  
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+ 	<uses-permission android:name="com.yourpackagename.permission.MAPS_RECEIVE"/>
+ 	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+ 	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    
+
+</manifest>

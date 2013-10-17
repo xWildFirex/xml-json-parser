@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:key="main_preference"
+    android:title="@string/prefTitle"
+    android:summary="@string/prefSummary">
+    
+    <PreferenceCategory 
+        android:key="working_category"
+        android:title="Working"
+        android:summary="real working prefs">
+    	<ListPreference 
+	        android:key="@string/main_list_preference"
+	        android:title="@string/listTitle"
+	        android:summary="@string/listSummary"
+	    	android:entries="@array/options"
+	    	android:entryValues="@array/options_values"
+	    	android:dialogTitle="@string/dialogTitle"
+	    	android:defaultValue="@string/option_default_value"    	
+    	/>    
+    </PreferenceCategory>
+    
+    <PreferenceCategory 
+        android:key="empty_prefs"
+        android:title="Lasy prefs"
+        android:summary="they don't want do somthig">
+        <CheckBoxPreference 
+	        android:key="first_chbp"
+	        android:title="Some useful check box"
+	        android:summaryOn="..click..."
+	        android:summaryOff="..click.."/>
+	    <CheckBoxPreference 
+	        android:key="second_cnbp"
+	        android:title="This..."
+	        android:summaryOff="Here could be your advertising"
+	        android:summaryOn="...or not :("/>
+	    <EditTextPreference 
+	        android:key="et_preference"
+	        android:title="Set some text..."
+	        android:summary="please click me"
+	        android:dialogTitle="Input text"/>
+	        
+    </PreferenceCategory>
+    
+</PreferenceScreen>
