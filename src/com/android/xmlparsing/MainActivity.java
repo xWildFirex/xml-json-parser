@@ -1,10 +1,6 @@
 package com.android.xmlparsing;
 
 
-import com.android.preference.MyPreferenceActivity;
-
-import android.R.anim;
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -18,10 +14,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
-import android.widget.FrameLayout;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.Toast;
+import com.android.preference.MyPreferenceActivity;
 
 public class MainActivity extends DefaulActivity implements OnClickListener {
 	
@@ -31,8 +24,8 @@ public class MainActivity extends DefaulActivity implements OnClickListener {
 	Button xmlButton;
 	Button jsonButton;
 	//String xmlUrl = "http://10.201.1.227/structure.xml";
-	String xmlUrl = "https://github.com/xWildFirex/xml-json-parser/blob/master/structures/structure.xml";
-	String jsonUrl = "https://github.com/xWildFirex/xml-json-parser/blob/master/structures/structure.json";
+	String xmlUrl = "https://raw.github.com/xWildFirex/xml-json-parser/master/structures/structure.xml";
+	String jsonUrl = "https://raw.github.com/xWildFirex/xml-json-parser/master/structures/structure.json";
 	
 	
 	@Override

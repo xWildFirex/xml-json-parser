@@ -93,6 +93,9 @@ public class AndroidXMLParsingActivity extends ListActivity {
 	}
 	
 	public void populateData() {
+		
+		View view = this.getWindow().getDecorView().findViewById(android.R.id.content);
+		view.setBackgroundResource(R.drawable.strand_lnd);	
 		if (data!=null){
 		SimpleAdapter adapter = null;
 		adapter = new SimpleAdapter(this, data, getListView(), R.layout.list_row, R.id.text, R.id.lr_imageV);
@@ -127,7 +130,7 @@ public class AndroidXMLParsingActivity extends ListActivity {
 			}
 		});
 		} else {
-			ImageDialog iDialog = new ImageDialog(this, "Набор данных пустой");
+			ImageDialog iDialog = new ImageDialog(this, "Data set is empty");
 			iDialog.setTitle("Error");
 			iDialog.show();
 		}
@@ -140,6 +143,7 @@ public class AndroidXMLParsingActivity extends ListActivity {
 			
 		resources = this.getResources();		
 		setBackground();
+        loadDataAsync();
 			
 	}
 	
