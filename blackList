@@ -1,1 +1,1 @@
-{"blackListUrl":["google.com","ya.ru","gismeteo.ru","www.yandex.ru","www.gismeteo.com"],"password":"admin"}
+{"whiteListUrl":["google.com","ya.ru","gismeteo.ru","www.yandex.ru","www.gismeteo.com"],"password":"admin"}
