@@ -1,1 +1,1 @@
-{"whiteListUrl":["google.com","ya.ru","gismeteo.ru","www.yandex.ru","www.gismeteo.com","facebook.com"],"password":"qwert"}
+{"blackListApps":["com.sec.android.app.controlpanel","com.android.settings"],"whiteListApps":["com.opera.browser","com.viber.voip","com.vkontakte.android"],"whiteListUrl":["google.com","ya.ru","gismeteo.ru","www.yandex.ru","www.gismeteo.com","facebook.com"],"password":"qwert"}
